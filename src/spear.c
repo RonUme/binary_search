@@ -16,7 +16,7 @@ int main(){
  while(ub-lb>1){
    int mid=(ub+lb)/2;
    int cou=0;
-   for(int I=0;n>I;i++)
+   for(int i=0;n>i;i++)
 	cou+=A[i]/mid;
    if(cou>=k)lb=mid;
    else ub=mid;
